@@ -16,6 +16,11 @@ class Location {
 class Person {
 }
 
+Event <|-- Conference
+Event <|-- BoardMeeting
 
+Person <|-- Member
+
+Member <|-- BoardMember
 
 @enduml
