@@ -18,22 +18,20 @@ class Person {
 class AAUOC {
 }
 
-AAUOC o-- Location
-AAUOC o-- Event
-AAUOC o-- Person
+AAUOC o--- Location
+AAUOC o--- Event
+AAUOC o--- Person
 
+Person <|-- Member
+BoardMember -|> Member
 
 BoardMeeting --|> Event
 
-Event --- Member
+Event -- Member
 
-Member --|> Person
-
-BoardMember --|> Member
-
-BoardMember --- BoardMeeting
+BoardMember - BoardMeeting
 
 Conference --|> Event
-Conference --- Person
+Conference -- Person
 
 @enduml

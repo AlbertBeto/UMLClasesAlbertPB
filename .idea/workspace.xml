@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ccb5fc-8209-4999-8ca3-f564277bed1f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UMLClasesUOC.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMLClasesUOC.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682886358055</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Estructura Básica Completa de interacción">
+      <created>1682887168718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682887168718</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,6 +107,7 @@
     <MESSAGE value="Creo las 6 clases identificadas" />
     <MESSAGE value="Incluida la clase Person" />
     <MESSAGE value="Creamos las estructuras relacionales básicas de Eventos y de personas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creamos las estructuras relacionales básicas de Eventos y de personas" />
+    <MESSAGE value="Estructura Básica Completa de interacción" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estructura Básica Completa de interacción" />
   </component>
 </project>
