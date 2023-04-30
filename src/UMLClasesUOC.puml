@@ -2,20 +2,33 @@
 'https://plantuml.com/class-diagram
 
 class Member {
+e-mail: String
 }
 class BoardMember {
 }
 class Event {
+date: Date
+description: String
+assign(I: Location): void
 }
 class Conference {
+max_attendees: Integer
 }
 class BoardMeeting {
 }
 class Location {
+description: String
+address: String
 }
 class Person {
+name: String
 }
 class AAUOC {
+newLocation(I: Location): void
+newEvent(e: Event): void
+newPerson(p: Person): void
+informEvent(e: Event): void
+register(m: Member,e: Event): void
 }
 
 AAUOC o--- Location
@@ -27,11 +40,13 @@ BoardMember -|> Member
 
 BoardMeeting --|> Event
 
-Event -- Member
+Event -- Member : attends To
 
-BoardMember - BoardMeeting
+BoardMember -- BoardMeeting : attends To
+
+Location --> Event : isLocated in
 
 Conference --|> Event
-Conference -- Person
+Conference -- Person : attends To
 
 @enduml
