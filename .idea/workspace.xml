@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682885998441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creamos las estructuras relacionales básicas de Eventos y de personas">
+      <created>1682886358055</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682886358055</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +98,7 @@
     <MESSAGE value="Creo PlantUML Class" />
     <MESSAGE value="Creo las 6 clases identificadas" />
     <MESSAGE value="Incluida la clase Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluida la clase Person" />
+    <MESSAGE value="Creamos las estructuras relacionales básicas de Eventos y de personas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creamos las estructuras relacionales básicas de Eventos y de personas" />
   </component>
 </project>

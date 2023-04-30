@@ -15,12 +15,25 @@ class Location {
 }
 class Person {
 }
+class AAUOC {
+}
 
-Event <|-- Conference
-Event <|-- BoardMeeting
+AAUOC o-- Location
+AAUOC o-- Event
+AAUOC o-- Person
 
-Person <|-- Member
 
-Member <|-- BoardMember
+BoardMeeting --|> Event
+
+Event --- Member
+
+Member --|> Person
+
+BoardMember --|> Member
+
+BoardMember --- BoardMeeting
+
+Conference --|> Event
+Conference --- Person
 
 @enduml
