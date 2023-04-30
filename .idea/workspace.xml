@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ccb5fc-8209-4999-8ca3-f564277bed1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UMLClasesUOC.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UMLClasesUOC.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMLClasesUOC.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +61,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682884121512</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creo PlantUML Class">
+      <created>1682885259722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682885259722</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creo las 6 clases identificadas">
+      <created>1682885507866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682885507866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación del proyecto" />
     <MESSAGE value="Incluyo el docx en la raiz del proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incluyo el docx en la raiz del proyecto" />
+    <MESSAGE value="Creo PlantUML Class" />
+    <MESSAGE value="Creo las 6 clases identificadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creo las 6 clases identificadas" />
   </component>
 </project>
