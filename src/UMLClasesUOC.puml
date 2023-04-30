@@ -31,22 +31,22 @@ informEvent(e: Event): void
 register(m: Member,e: Event): void
 }
 
-AAUOC o--- Location
-AAUOC o--- Event
-AAUOC o--- Person
+AAUOC o--- "0..*" Location
+AAUOC o--- "0..*" Event
+AAUOC o--- "0..*" Person
 
 Person <|-- Member
 BoardMember -|> Member
 
 BoardMeeting --|> Event
 
-Event -- Member : attends To
+Event "0..*" -- "0..*" Member : attends To
 
-BoardMember -- BoardMeeting : attends To
+BoardMember "0..*" -- "0..*" BoardMeeting : attends To
 
-Location --> Event : isLocated in
+Location "1..1" ---> "0..*" Event : isLocated in
 
 Conference --|> Event
-Conference -- Person : attends To
+Conference "0..*" -- "0..*" Person : attends To
 
 @enduml
