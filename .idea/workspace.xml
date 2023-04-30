@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44ccb5fc-8209-4999-8ca3-f564277bed1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="44ccb5fc-8209-4999-8ca3-f564277bed1f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682889835866</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Incluyo PDF final">
+      <created>1682890473619</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682890473619</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +136,7 @@
     <MESSAGE value="Rectifico estructura basica" />
     <MESSAGE value="incluyo relaciones y restructuro un poco el diagrama" />
     <MESSAGE value="Cardinalidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cardinalidades" />
+    <MESSAGE value="Incluyo PDF final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluyo PDF final" />
   </component>
 </project>
