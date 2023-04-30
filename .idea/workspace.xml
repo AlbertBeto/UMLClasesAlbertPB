@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44ccb5fc-8209-4999-8ca3-f564277bed1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UMLClasesUOC.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UMLClasesUOC.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682888275540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="incluyo relaciones y restructuro un poco el diagrama">
+      <created>1682889462433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682889462433</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Cardinalidades">
+      <created>1682889835866</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682889835866</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,6 +129,8 @@
     <MESSAGE value="Creamos las estructuras relacionales básicas de Eventos y de personas" />
     <MESSAGE value="Estructura Básica Completa de interacción" />
     <MESSAGE value="Rectifico estructura basica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectifico estructura basica" />
+    <MESSAGE value="incluyo relaciones y restructuro un poco el diagrama" />
+    <MESSAGE value="Cardinalidades" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cardinalidades" />
   </component>
 </project>
